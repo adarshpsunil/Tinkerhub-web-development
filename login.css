@@ -5,4 +5,26 @@
 
 .name{
     color: rgb(238, 154, 27);
+    border: rgb(216, 159, 118);
+    border-radius: 5mm;
+
+}
+#email{
+    color: rgb(238, 154, 27);
+}
+#password{
+    color: rgb(238, 154, 27);
+}
+#psw{
+    color: coral;
+}
+.Login{
+    color: rgba(170, 106, 106, 0.959);
+    background-color: rgb(164, 187, 161);
+    padding: 4in;
+    padding: 0.05cm;
+    padding-left: .05;
+    padding-right: .05;
+    color: bisque;
+}
 }
