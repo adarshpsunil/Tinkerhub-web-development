@@ -1,5 +1,49 @@
 #a {
-    color: pink;
+    color: rgb(245, 157, 172);
     border-color: aqua;
-    background-color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    display: inline;
+    margin-left: -700px;
+    animation: why 2s linear 2s 1;
+
+
 }
+@keyframes why{
+    from{
+    margin-left: -700px;
+        
+    }
+    to{
+    margin-left: 0px;
+
+    }
+}
+body{
+    background-color: aquamarine;
+}
+
+div {
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: red;
+    position: sticky;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+
+        from{
+        margin-left: -700px;
+            
+        }
+        to{
+        margin-left: 0px;
+    
+        }
+    }
